@@ -8,7 +8,7 @@ public class ConjuntoBaguncado {
 	@SuppressWarnings({ "rawtypes", "unchecked" })//Silencia as advertencias de erro embaixo das palavras.
 	public static void main(String args[]){
 		HashSet conjunto = new HashSet();
-		
+		//Conjunto criado com dados heterogeneos(dados misturados, de vários tipos)
 		conjunto.add(1.2);//double -> Double
 		conjunto.add(true);//boolean -> Boolean
 		conjunto.add("Teste");//String
